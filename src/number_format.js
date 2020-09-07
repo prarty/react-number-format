@@ -165,6 +165,7 @@ class NumberFormat extends React.Component {
       ) {
         this.updateValue({ formattedValue, numAsString, input: focusedElm });
       }
+      this.updateValue({ formattedValue, numAsString, input: focusedElm });
     }
   }
 
